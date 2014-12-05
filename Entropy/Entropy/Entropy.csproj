@@ -56,6 +56,7 @@
     <Compile Include="FailureModules\Solar.cs" />
     <Compile Include="FailureModules\SRB.cs" />
     <Compile Include="Utilities\PermissiveEnginesManager.cs" />
+    <Compile Include="FailureModules\Parachutes.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
