@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entropy", "Entropy\Entropy.csproj", "{7EFBE627-9945-4E79-8976-CC0C67FA6C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DangIt", "..\..\..\Important Documents\dangit_mod\Abaddon\DangIt\DangIt.csproj", "{9B88953E-3F14-4DEA-8078-B3418A17E2F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EFBE627-9945-4E79-8976-CC0C67FA6C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFBE627-9945-4E79-8976-CC0C67FA6C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFBE627-9945-4E79-8976-CC0C67FA6C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFBE627-9945-4E79-8976-CC0C67FA6C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B88953E-3F14-4DEA-8078-B3418A17E2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B88953E-3F14-4DEA-8078-B3418A17E2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B88953E-3F14-4DEA-8078-B3418A17E2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B88953E-3F14-4DEA-8078-B3418A17E2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Entropy\Entropy.csproj
+	EndGlobalSection
+EndGlobal

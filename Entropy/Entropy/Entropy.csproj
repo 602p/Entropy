@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7EFBE627-9945-4E79-8976-CC0C67FA6C18}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>coffeeman</RootNamespace>
+    <AssemblyName>Entropy</AssemblyName>
+    <newfilesearch>OnLoadAutoInsert</newfilesearch>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Kerbal Space Program\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="CrewFiles">
+      <HintPath>..\..\..\..\Important Documents\dangit_mod\Abaddon\CrewFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="CrewFilesInterface">
+      <HintPath>..\..\..\..\Important Documents\dangit_mod\Abaddon\CrewFilesInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="DangIt">
+      <HintPath>..\..\..\..\Important Documents\dangit_mod\Abaddon\DangIt\bin\Release\DangIt.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Kerbal Space Program\KSP_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FailureModules\Intakes.cs" />
+    <Compile Include="FailureModules\LossOfCoolant.cs" />
+    <Compile Include="FailureModules\SmallPartExploder.cs" />
+    <Compile Include="FailureModules\Solar.cs" />
+    <Compile Include="FailureModules\SRB.cs" />
+    <Compile Include="Utilities\PermissiveEnginesManager.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="FailureModules\" />
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+</Project>
