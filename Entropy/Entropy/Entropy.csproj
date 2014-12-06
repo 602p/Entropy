@@ -58,6 +58,7 @@
     <Compile Include="Utilities\PermissiveEnginesManager.cs" />
     <Compile Include="FailureModules\Parachutes.cs" />
     <Compile Include="FailureModules\Animate.cs" />
+    <Compile Include="FailureModules\Generator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

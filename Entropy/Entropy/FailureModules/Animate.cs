@@ -39,12 +39,15 @@ namespace coffeeman
 		protected override void DI_Disable()
 		{
 			bay.allowManualControl = false;
+			bay.enabled = false;
+
 		}
 
 
 		protected override void DI_EvaRepair()
 		{
-			bay.allowManualControl = true;          
+			bay.allowManualControl = true;
+			bay.enabled = true; 
 		}
 	}
 }
