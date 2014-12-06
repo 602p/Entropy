@@ -8,7 +8,7 @@ using KSP;
 
 namespace coffeeman
 {
-	public class ModuleAnimationReliability : ippo.FailureModule
+	public class ModuleGeneratorReliability : ippo.FailureModule
 	{
 		ModuleGenerator generator;
 
