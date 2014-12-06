@@ -49,20 +49,15 @@ namespace coffeeman
 
 		protected override void DI_Disable()
 		{
-			;
+			chute.fullyDeployedDrag /= 2;
+			chute.semiDeployedDrag /= 2;
 		}
 
 
 		protected override void DI_EvaRepair()
 		{ 
-			;
-		}
-
-		protected override void DI_Update(){
-			if (this.HasFailed) {
-				chute.deploymentState = ModuleParachute.deploymentStates.SEMIDEPLOYED;
-				chute.Deploy ();
-			}
+			chute.fullyDeployedDrag *= 2;
+			chute.semiDeployedDrag *= 2;
 		}
 	}
 }
