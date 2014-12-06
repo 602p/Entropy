@@ -57,6 +57,7 @@
     <Compile Include="FailureModules\SRB.cs" />
     <Compile Include="Utilities\PermissiveEnginesManager.cs" />
     <Compile Include="FailureModules\Parachutes.cs" />
+    <Compile Include="FailureModules\Animate.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
