@@ -15,7 +15,7 @@ namespace coffeeman
 
 		public override string DebugName { get { return "Canopy_stock_chutes"; } }
 		public override string ScreenName { get { return "Canopy"; } }
-		public override string FailureMessage { get { return "The Canopy of a Parachute has degraded"; } }
+		public override string FailureMessage { get { return "The lines of a Parachute have become tangled"; } }
 		public override string RepairMessage { get { return "You have repaired Canopy"; } }
 		public override string FailGuiName { get { return "Fail Canopy"; } }
 		public override string EvaRepairGuiName { get { return "Patch hole"; } }
