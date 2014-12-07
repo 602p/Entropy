@@ -58,8 +58,8 @@ namespace coffeeman
 
 		protected override void DI_EvaRepair()
 		{ 
-			chute.parachutes.ForEach (p => p.deployedDiameter /= 2);
-			chute.parachutes.ForEach (p => p.preDeployedDiameter /= 2);
+			chute.parachutes.ForEach (p => p.deployedDiameter *= 2);
+			chute.parachutes.ForEach (p => p.preDeployedDiameter *= 2);
 		}
 	}
 }
