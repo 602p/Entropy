@@ -88,6 +88,19 @@ namespace coffeeman
 			}
 		}
 
+		public float CurrentThrust
+		{
+			get
+			{
+				float throttle = 0;
+
+				if (engines.Count > 0) throttle = engines.Max(e => e.CalculateThrust());
+				if (enginesFX.Count > 0) throttle = Math.Max(throttle, enginesFX.Max(e => e.CalculateThrust()));
+
+				return throttle;
+			}
+		}
+
 
 		/// <summary>
 		/// Disables all the engine modules.

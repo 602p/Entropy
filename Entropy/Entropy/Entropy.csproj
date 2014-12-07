@@ -59,10 +59,22 @@
     <Compile Include="FailureModules\Parachutes.cs" />
     <Compile Include="FailureModules\Animate.cs" />
     <Compile Include="FailureModules\Generator.cs" />
+    <Compile Include="FailureModules\SRB_engineFX.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="FailureModules\" />
     <Folder Include="Utilities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ModuleManager\Animations.cfg" />
+    <None Include="ModuleManager\Engines_Coolant.cfg" />
+    <None Include="ModuleManager\Generators.cfg" />
+    <None Include="ModuleManager\Intakes.cfg" />
+    <None Include="ModuleManager\Parachutes.cfg" />
+    <None Include="ModuleManager\SmallTanks.cfg" />
+    <None Include="ModuleManager\Solar.cfg" />
+    <None Include="ModuleManager\SRBs.cfg" />
+    <None Include="ModuleManager\Stock_Ignores.cfg" />
   </ItemGroup>
 </Project>
