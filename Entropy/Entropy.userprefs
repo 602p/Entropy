@@ -1,9 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Entropy\MyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Entropy\FailureModules\Generator.cs">
     <Files>
-      <File FileName="Entropy\MyClass.cs" Line="6" Column="22" />
-      <File FileName="Entropy\Properties\AssemblyInfo.cs" Line="7" Column="61" />
+      <File FileName="Entropy\Properties\AssemblyInfo.cs" Line="23" Column="32" />
+      <File FileName="..\..\..\Important Documents\dangit_mod\Abaddon\DangIt\Failure modules\FailureModule.cs" Line="409" Column="10" />
+      <File FileName="..\..\EngineIgnitor\EngineIgnitor.cs" Line="781" Column="4" />
+      <File FileName="Entropy\FailureModules\Animate.cs" Line="50" Column="24" />
+      <File FileName="Entropy\FailureModules\Generator.cs" Line="47" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

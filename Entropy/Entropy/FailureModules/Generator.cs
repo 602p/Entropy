@@ -38,13 +38,19 @@ namespace coffeeman
 
 		protected override void DI_Disable()
 		{
-			generator.efficiency /= 2;
+			generator.outputList.ForEach (r => r.rate /= 2);
 		}
 
 
 		protected override void DI_EvaRepair()
 		{
-			generator.efficiency *= 2;
+			generator.outputList.ForEach (r => r.rate *= 2);
+		}
+
+		protected override void DI_Update(){
+			if (this.HasFailed) {
+				generator.efficiency /= 2;
+			}
 		}
 	}
 }
