@@ -1,12 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FailureModules\SRB_engineFX.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Entropy_realchutes\RealChute.cs">
     <Files>
-      <File FileName="FailureModules\SRB.cs" Line="11" Column="48" />
-      <File FileName="FailureModules\SRB_engineFX.cs" Line="16" Column="50" />
-      <File FileName="FailureModules\LossOfCoolant.cs" Line="31" Column="5" />
-      <File FileName="Utilities\PermissiveEnginesManager.cs" Line="98" Column="100" />
-      <File FileName="..\Entropy_realchutes\RealChute.cs" Line="27" Column="42" />
+      <File FileName="FailureModules\SRB.cs" Line="1" Column="1" />
+      <File FileName="FailureModules\SRB_engineFX.cs" Line="8" Column="1" />
+      <File FileName="FailureModules\LossOfCoolant.cs" Line="1" Column="1" />
+      <File FileName="Utilities\PermissiveEnginesManager.cs" Line="1" Column="1" />
+      <File FileName="..\Entropy_realchutes\RealChute.cs" Line="13" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

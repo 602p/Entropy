@@ -9,6 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Entropy_realchutes</RootNamespace>
     <AssemblyName>Entropy_realchutes</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,15 +33,19 @@
     <Reference Include="System" />
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Kerbal Space Program\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Kerbal Space Program\KSP_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="RealChute">
-      <HintPath>..\..\..\RealChute\Output\GameData\RealChute\Plugins\RealChute.dll</HintPath>
+      <HintPath>..\..\..\..\Important Documents\dangit_mod\min_ksp\GameData\RealChute\Plugins\RealChute.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DangIt">
-      <HintPath>..\..\..\..\Important Documents\dangit_mod\Abaddon\DangIt\bin\Release\DangIt.dll</HintPath>
+      <HintPath>..\..\..\..\Important Documents\dangit_mod\min_ksp\GameData\DangIt\DangIt.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>

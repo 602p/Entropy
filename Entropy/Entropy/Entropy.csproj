@@ -76,5 +76,7 @@
     <None Include="ModuleManager\Solar.cfg" />
     <None Include="ModuleManager\SRBs.cfg" />
     <None Include="ModuleManager\Stock_Ignores.cfg" />
+    <None Include="Entropy.userprefs" />
+    <None Include="ModuleManager\SRBs_enginesFX.cfg" />
   </ItemGroup>
 </Project>
