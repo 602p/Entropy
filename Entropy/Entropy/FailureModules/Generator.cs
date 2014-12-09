@@ -19,6 +19,7 @@ namespace coffeeman
 		public override string FailGuiName { get { return "Fail generator"; } }
 		public override string EvaRepairGuiName { get { return "Repair generator"; } }
 		public override string MaintenanceString { get { return "Clean generator"; } }
+		public override string ExtraEditorInfo{ get { return "This part can lost efficiency if it fails"; } }
 
 		public override bool PartIsActive()
 		{

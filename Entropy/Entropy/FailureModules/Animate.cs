@@ -19,6 +19,7 @@ namespace coffeeman
 		public override string FailGuiName { get { return "Fail motor"; } }
 		public override string EvaRepairGuiName { get { return "Repair motor"; } }
 		public override string MaintenanceString { get { return "Lubricate motor"; } }
+		public override string ExtraEditorInfo{ get { return "This part can become stuck if it fails"; } }
 
 		public override bool PartIsActive()
 		{

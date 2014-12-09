@@ -20,6 +20,7 @@ namespace coffeeman
 		public override string FailGuiName { get { return "Fail Canopy"; } }
 		public override string EvaRepairGuiName { get { return "Patch hole"; } }
 		public override string MaintenanceString { get { return "Patch Canopy"; } }
+		public override string ExtraEditorInfo{ get { return "This part's canopy can tear if it fails"; } }
 
 		public override bool PartIsActive()
 		{

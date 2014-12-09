@@ -19,6 +19,7 @@ namespace coffeeman
 		public override string FailGuiName { get { return "Fail O-Ring"; } }
 		public override string EvaRepairGuiName { get { return ""; } }
 		public override string MaintenanceString { get { return "Replace O-Ring"; } }
+		public override string ExtraEditorInfo{ get { return "This part can overheat, overthrust and explode if it fails"; } }
 
 		public bool overloading = false;
 		public float overloadbonus = 0F;
