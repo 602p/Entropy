@@ -20,4 +20,4 @@ using System.Runtime.CompilerServices;
 //[assembly: AssemblyDelaySign(false)]
 //[assembly: AssemblyKeyFile("")]
 
-[assembly: KSPAssembly("Entropy", 1, 0)]
+[assembly: KSPAssemblyDependency("DangIt", 5, 0)]
