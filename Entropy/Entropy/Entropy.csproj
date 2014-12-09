@@ -41,11 +41,11 @@
     <Reference Include="CrewFilesInterface">
       <HintPath>..\..\..\..\Important Documents\dangit_mod\Abaddon\CrewFilesInterface.dll</HintPath>
     </Reference>
-    <Reference Include="DangIt">
-      <HintPath>..\..\..\..\Important Documents\dangit_mod\Abaddon\DangIt\bin\Release\DangIt.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Kerbal Space Program\KSP_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="DangIt">
+      <HintPath>..\..\..\..\Important Documents\dangit_mod\min_ksp\GameData\DangIt\DangIt.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

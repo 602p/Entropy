@@ -19,7 +19,7 @@ namespace coffeeman
 		public override string FailGuiName { get { return "Fail Servo"; } }
 		public override string EvaRepairGuiName { get { return "Replace Servo"; } }
 		public override string MaintenanceString { get { return "Clean Servo"; } }
-		public override string ExtraEditorInfo{ get { return "This part's tracking motor can stop tracking if it fails"; } }
+		public override string ExtraEditorInfo { get { return "This part's tracking motor can stop tracking if it fails"; } }
 
 		public override bool PartIsActive()
 		{
