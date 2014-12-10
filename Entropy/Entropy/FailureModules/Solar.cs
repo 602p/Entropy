@@ -30,6 +30,9 @@ namespace coffeeman
 		protected override void DI_Start(StartState state)
 		{
 			panel = this.part.Modules.OfType<ModuleDeployableSolarPanel>().Single();
+			if (!panel.sunTracking) {
+				this.enabled = false; //Disable this if it's not tracking
+			}
 		}
 
 		protected override bool DI_FailBegin()
