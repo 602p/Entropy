@@ -45,6 +45,10 @@ namespace coffeeman
 		protected override void DI_EvaRepair(){
 			panel.sunTracking = true;
 		}
+
+		public override bool DI_ShowInfoInEditor(){
+			return this.part.Modules.OfType<ModuleDeployableSolarPanel>().Single().sunTracking; //Don't show for non-tracking panels
+		}
 	}
 }
 
