@@ -36,20 +36,13 @@
       <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Kerbal Space Program\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="CrewFiles">
-      <HintPath>..\..\..\..\Important Documents\dangit_mod\Abaddon\CrewFiles.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="CrewFilesInterface">
-      <HintPath>..\..\..\..\Important Documents\dangit_mod\Abaddon\CrewFilesInterface.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Kerbal Space Program\KSP_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DangIt">
       <HintPath>..\..\..\..\Important Documents\dangit_mod\min_ksp\GameData\DangIt\DangIt.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
