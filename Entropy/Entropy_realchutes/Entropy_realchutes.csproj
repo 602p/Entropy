@@ -40,12 +40,10 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="RealChute">
-      <HintPath>..\..\..\..\Important Documents\dangit_mod\min_ksp\GameData\RealChute\Plugins\RealChute.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Kerbal Space Program\GameData\RealChute\Plugins\RealChute.dll</HintPath>
     </Reference>
     <Reference Include="DangIt">
-      <HintPath>..\..\..\..\Important Documents\dangit_mod\min_ksp\GameData\DangIt\DangIt.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Kerbal Space Program\GameData\DangIt\DangIt.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
