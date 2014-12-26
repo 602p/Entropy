@@ -27,7 +27,14 @@ namespace coffeeman
 		public override bool PartIsActive()
 		{
 			// A SRB is active if it is running
-			return srb.EngineIgnited & srb.part.Resources.Get(0).amount>0;
+			if (!srb.EngineIgnited)
+				return false;
+			foreach (PartResource resource in part.Resources) {
+				if (resource.amount==0){
+					return false;
+				}
+			}
+			return true;
 		}
 
 		protected override void DI_Start(StartState state)
@@ -37,7 +44,7 @@ namespace coffeeman
 
 		protected override bool DI_FailBegin()
 		{
-			return true;
+			return PartIsActive();
 		}
 
 		protected override void DI_Disable()
