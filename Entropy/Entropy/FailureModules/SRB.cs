@@ -27,7 +27,7 @@ namespace coffeeman
 		public override bool PartIsActive()
 		{
 			// A SRB is active if it is running
-			return srb.EngineIgnited & srb.CalculateThrust()>0;
+			return srb.EngineIgnited & srb.part.Resources.Get(0).amount>0;
 		}
 
 		protected override void DI_Start(StartState state)
